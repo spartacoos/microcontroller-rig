@@ -1,6 +1,6 @@
 version: '2.1'
 services:
-  detect:
+  flashing:
     restart: always
     build: ./flashing
     privileged: true
