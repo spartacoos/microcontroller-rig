@@ -1,0 +1,19 @@
+name: "PicoFlash"
+description: "Remotely flash your Raspberry Pi Pico (or other microcontroller) from within VSCode, using your Raspberry Pi running Balena OS."
+type: "sw.application"
+assets:
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/COTASPAR/vscode-microcontroller-rig"
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://raw.githubusercontent.com/COTASPAR/vscode-microcontroller-rig/main/assets/logo.png"    
+data:
+  applicationEnvironmentVariables:
+    - ACTIVE_PIN: 15
+  defaultDeviceType: "raspberry-pi"
+  supportedDeviceTypes:
+    - "raspberry-pi"
+    - "raspberrypi4-64"
