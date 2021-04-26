@@ -4,8 +4,8 @@ Flash your microcontroller remotely through a Raspberry Pi using the **unofficia
 
 ## Features Roadmap
 - Remote flashing [✓]
-- Remote debugging [❌]
-- Automatic testing with github actions [❌]
+- Remote debugging [✘]
+- Automatic testing with github actions [✘]
 
 
 [![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/COTASPAR/vscode-microcontroller-rig)
