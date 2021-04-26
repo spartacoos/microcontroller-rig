@@ -19,6 +19,6 @@ RUN chmod +x pico-setup/pico_setup.sh && cd pico-setup && /bin/bash -e pico_setu
 
 RUN export PICO_SDK_PATH=/pico_flashing/pico-setup/pico/pico-sdk 
 
-RUN echo "Great, the PicoDetect example is ready."
+RUN echo "Great, the PicoFlashing example is ready."
 
 CMD /bin/bash
