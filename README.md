@@ -1,4 +1,4 @@
-# VSCode Microcontroller Flashing Rig
+# Microcontroller Flashing Rig
 
 Flash your microcontroller remotely through a Raspberry Pi. This way, you can simply deploy this repository to your Raspberry Pi using the button below then hook up your microcontroller to it, and you'll be able to flash the microcontroller from within GitHub codespaces if you are developing on the cloud or your IDE of choice if developing locally. 
 
